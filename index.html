@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/scripts.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="movieForm">
+      <label for="userName">
+        Enter a name:
+        <input type="text" id="name" name="name" />
+      </label>
+      <label for="age">
+        Enter an age:
+        <input type="number" id="age" max="99" min="1" />
+      </label>
+      <p>Pick a movie:</p>
+      <label for="movie"> Spider-man</label>
+      <input name="movie" type="radio" value="spiderman" />
+      <label for="movie"> John Wick</label>
+      <input name="movie" type="radio" value="wick" />
+      <button type="submit">Submit</button>
+    </form>
+    <div id="output"></div>
+  </body>
+</html>
