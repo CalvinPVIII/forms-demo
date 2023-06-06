@@ -18,9 +18,9 @@ function handleForm(e) {
   }
   // finding the element to append our result
   const output = document.querySelector("#output");
-  // resetting our result so there won't me multiple lines
+  // resetting our result so there won't be multiple lines
   output.innerHTML = "";
-  // appending the result to the output
+  // appending the result to the output, this line will add our result to the page.
   output.append(result);
 }
 
